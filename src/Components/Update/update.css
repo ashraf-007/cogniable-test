@@ -1,0 +1,78 @@
+#btns button{
+    background: #FAF8F8;
+    height: 35px;
+    width:123px;
+    font-size: 12px;
+    border: 1px solid #DBDBDB;
+    border-left: 0px;
+    color: #979797;
+}
+#btns button:nth-child(1){
+background: #E58425;
+color: white;
+border-radius: 3px 0px 0px 3px;
+border: 0px;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    gap: 30px;
+}
+#bullet{
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+}
+.drag{
+    background: #E5EBFF;
+    border-radius: 20px;
+    width: 100%;
+    height: 96px;
+    opacity: 0.69;
+    border: 0.25px dashed #0B35B3;
+    border-radius: 11px;
+}
+#element input , #element select{
+    border: 1.5px solid #E3E3E3;
+    width: 100%;
+    padding: 7px;
+    outline: none;
+}
+
+#update__btn{
+    color: white;
+    height: 35px;
+    width: 165px;
+    border-radius: 4px;
+    background-color: blue;
+    }
+
+    .is__selected{
+        background-color: #FBFBFB;
+        border: 1px solid #C9D7FF;
+        color: blue;
+        font-weight: bold;
+    }
+
+    .schedual__selected{
+        background-color: #FBFBFB;
+        padding: 5px;
+    }
+
+    @media  only screen and (max-width:940px) {
+        #main {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            gap: 30px;
+        }
+    }
+
+    
+    @media  only screen and (max-width:560px) {
+        #main {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+        }
+    }

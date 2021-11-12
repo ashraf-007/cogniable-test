@@ -1,0 +1,43 @@
+#add__learner{
+    background-color:#E58425;
+    height: 35px;
+    width: 115px;
+
+}
+
+#inputs input {
+    background-color: #FAF8F8;
+    border: none;
+    outline: none;
+    height:  100%;
+    width: 100%;
+    padding: 0 10px;
+    
+}
+
+#name,#email,#case__manager,#status{
+    background: #FAF8F8;
+    height: 35px;
+    margin-right: 10px;
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+    width: 120px;
+}
+#search{
+    background: #0B35B3;
+    height: 35px;
+    width: 123px;
+}
+
+#status select {
+    background-color: #FAF8F8;
+    border: none;
+    outline: none;
+    height: auto;
+    width: 100%;
+    padding: 6px 10px;
+    
+}
+input::placeholder , select::placeholder{
+    font-size: 0.8em;
+}
